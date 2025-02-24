@@ -1,0 +1,13 @@
+name: BossBarAdder
+version: '1.21'
+main: net.com.bossBarAdder.BossBarAdder
+api-version: '1.21'
+authors: [ mddinaldggalt <- MODRINTH ]
+description: Adds a /bossbaradder command which is incredibly easy to use as thats the only command.
+website: https://modrinth.com/user/mddinaldggalt
+
+commands:
+  bossbaradder:
+    description: Adds a boss bar to a mob
+    usage: /bossbaradder <bossbarname> <id> <range>
+    permission: bossbaradder.use
